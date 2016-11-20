@@ -1,0 +1,5 @@
+set -tmpdir "C:/cpu_proj/pop_cpu/xst/projnav.tmp"
+set -xsthdpdir "C:/cpu_proj/pop_cpu/xst"
+elaborate
+-ifn ALUSrc1MUX.prj
+-ifmt mixed

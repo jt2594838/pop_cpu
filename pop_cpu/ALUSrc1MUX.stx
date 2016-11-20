@@ -1,0 +1,43 @@
+Release 14.7 - xst P.20131013 (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to C:/cpu_proj/pop_cpu/xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.10 secs
+ 
+--> Parameter xsthdpdir set to C:/cpu_proj/pop_cpu/xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.10 secs
+ 
+--> WARNING:Xst:3164 - Option "-debug" found multiple times in the command line. Only the first occurence is considered.
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/cpu_proj/pop_cpu/recordDefs.vhd" in Library work.
+Package <recordDefs> compiled.
+Package body <recordDefs> compiled.
+Compiling vhdl file "C:/cpu_proj/pop_cpu/ALUSrc1MUX.vhd" in Library work.
+Entity <alusrc1mux> compiled.
+WARNING:HDLParsers:817 - "C:/cpu_proj/pop_cpu/ALUSrc1MUX.vhd" Line 50. Choice . is not a locally static expression.
+WARNING:HDLParsers:817 - "C:/cpu_proj/pop_cpu/ALUSrc1MUX.vhd" Line 52. Choice . is not a locally static expression.
+WARNING:HDLParsers:817 - "C:/cpu_proj/pop_cpu/ALUSrc1MUX.vhd" Line 54. Choice . is not a locally static expression.
+WARNING:HDLParsers:817 - "C:/cpu_proj/pop_cpu/ALUSrc1MUX.vhd" Line 56. Choice . is not a locally static expression.
+WARNING:HDLParsers:817 - "C:/cpu_proj/pop_cpu/ALUSrc1MUX.vhd" Line 58. Choice . is not a locally static expression.
+Entity <ALUSrc1MUX> (Architecture <Behavioral>) compiled.
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.13 secs
+ 
+--> 
+
+Total memory usage is 172852 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    6 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

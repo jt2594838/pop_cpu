@@ -1,0 +1,7 @@
+PH recorddefs NULL C:/cpu_proj/pop_cpu/recordDefs.vhd sub00/vhpl02 1479636136
+AR alusrc0mux behavioral C:/cpu_proj/pop_cpu/ALUSrc0MUX.vhd sub00/vhpl05 1479635678
+EN alusrc1mux NULL C:/cpu_proj/pop_cpu/ALUSrc1MUX.vhd sub00/vhpl00 1479635566
+AR alusrc1mux behavioral C:/cpu_proj/pop_cpu/ALUSrc1MUX.vhd sub00/vhpl04 1479635567
+EN alusrc0mux NULL C:/cpu_proj/pop_cpu/ALUSrc0MUX.vhd sub00/vhpl01 1479635677
+PB recorddefs recorddefs C:/cpu_proj/pop_cpu/recordDefs.vhd sub00/vhpl03 1479636137
+EN alu NULL C:/cpu_proj/pop_cpu/ALU.vhd sub00/vhpl06 1479636138

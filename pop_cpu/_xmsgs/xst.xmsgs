@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="error" file="HDLParsers" num="808" delta="new" >&quot;<arg fmt="%s" index="1">C:/cpu_proj/pop_cpu/ALU.vhd</arg>&quot; Line <arg fmt="%d" index="2">50</arg>. <arg fmt="%s" index="3">sll</arg> can not have such operands in this context.
+</msg>
+
+<msg type="error" file="HDLParsers" num="808" delta="new" >&quot;<arg fmt="%s" index="1">C:/cpu_proj/pop_cpu/ALU.vhd</arg>&quot; Line <arg fmt="%d" index="2">52</arg>. <arg fmt="%s" index="3">srl</arg> can not have such operands in this context.
+</msg>
+
+<msg type="error" file="HDLParsers" num="808" delta="new" >&quot;<arg fmt="%s" index="1">C:/cpu_proj/pop_cpu/ALU.vhd</arg>&quot; Line <arg fmt="%d" index="2">54</arg>. <arg fmt="%s" index="3">sra</arg> can not have such operands in this context.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="817" delta="new" >&quot;<arg fmt="%s" index="1">C:/cpu_proj/pop_cpu/ALU.vhd</arg>&quot; Line <arg fmt="%d" index="2">49</arg>. Choice <arg fmt="%s" index="3">.</arg> is not a locally static expression.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="817" delta="new" >&quot;<arg fmt="%s" index="1">C:/cpu_proj/pop_cpu/ALU.vhd</arg>&quot; Line <arg fmt="%d" index="2">51</arg>. Choice <arg fmt="%s" index="3">.</arg> is not a locally static expression.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="817" delta="new" >&quot;<arg fmt="%s" index="1">C:/cpu_proj/pop_cpu/ALU.vhd</arg>&quot; Line <arg fmt="%d" index="2">53</arg>. Choice <arg fmt="%s" index="3">.</arg> is not a locally static expression.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="817" delta="new" >&quot;<arg fmt="%s" index="1">C:/cpu_proj/pop_cpu/ALU.vhd</arg>&quot; Line <arg fmt="%d" index="2">55</arg>. Choice <arg fmt="%s" index="3">.</arg> is not a locally static expression.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="817" delta="new" >&quot;<arg fmt="%s" index="1">C:/cpu_proj/pop_cpu/ALU.vhd</arg>&quot; Line <arg fmt="%d" index="2">57</arg>. Choice <arg fmt="%s" index="3">.</arg> is not a locally static expression.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="817" delta="new" >&quot;<arg fmt="%s" index="1">C:/cpu_proj/pop_cpu/ALU.vhd</arg>&quot; Line <arg fmt="%d" index="2">59</arg>. Choice <arg fmt="%s" index="3">.</arg> is not a locally static expression.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="817" delta="new" >&quot;<arg fmt="%s" index="1">C:/cpu_proj/pop_cpu/ALU.vhd</arg>&quot; Line <arg fmt="%d" index="2">61</arg>. Choice <arg fmt="%s" index="3">.</arg> is not a locally static expression.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="817" delta="new" >&quot;<arg fmt="%s" index="1">C:/cpu_proj/pop_cpu/ALU.vhd</arg>&quot; Line <arg fmt="%d" index="2">63</arg>. Choice <arg fmt="%s" index="3">.</arg> is not a locally static expression.
+</msg>
+
+</messages>
+
