@@ -1,4 +1,4 @@
-V3 23
+V3 26
 FL C:/cpu_proj/pop_cpu/ALU.vhd 2016/11/20.17:45:17 P.20131013
 FL C:/cpu_proj/pop_cpu/ALUSrc0MUX.vhd 2016/11/20.17:54:32 P.20131013
 EN work/ALUSrc0MUX 1479635677 FL C:/cpu_proj/pop_cpu/ALUSrc0MUX.vhd \
@@ -17,6 +17,12 @@ EN work/ALU 0 FL E:/computer/pop_cpu/ALU.vhd PB ieee/std_logic_1164 1381692176 \
       PB work/recordDefs 1479652209
 AR work/ALU/Behavioral 0 \
       FL E:/computer/pop_cpu/ALU.vhd EN work/ALU 0
+FL E:/computer/pop_cpu/InsFetcher.vhd 2016/11/20.23:27:05 P.20131013
+EN work/InsFetcher 1479655631 FL E:/computer/pop_cpu/InsFetcher.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/InsFetcher/Behavioral 1479655632 \
+      FL E:/computer/pop_cpu/InsFetcher.vhd EN work/InsFetcher 1479655631
 FL E:/computer/pop_cpu/PC.vhd 2016/11/20.22:37:02 P.20131013
 EN work/PC 1479652640 FL E:/computer/pop_cpu/PC.vhd PB ieee/std_logic_1164 1381692176 \
       PB ieee/std_logic_arith 1381692177 PB ieee/STD_LOGIC_UNSIGNED 1381692179
