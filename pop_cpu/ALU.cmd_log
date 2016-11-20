@@ -7,3 +7,4 @@ xst -intstyle ise -ifn "C:/cpu_proj/pop_cpu/ALU.xst" -ofn "C:/cpu_proj/pop_cpu/A
 xst -intstyle ise -ifn "C:/cpu_proj/pop_cpu/ALU.xst" -ofn "C:/cpu_proj/pop_cpu/ALU.syr" 
 xst -intstyle ise -ifn "C:/cpu_proj/pop_cpu/ALU.xst" -ofn "C:/cpu_proj/pop_cpu/ALU.syr" 
 xst -intstyle ise -ifn "C:/cpu_proj/pop_cpu/ALU.xst" -ofn "C:/cpu_proj/pop_cpu/ALU.syr" 
+xst -intstyle ise -ifn "E:/computer/pop_cpu/ALU.xst" -ofn "E:/computer/pop_cpu/ALU.syr" 

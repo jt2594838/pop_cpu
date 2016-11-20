@@ -10,7 +10,8 @@
 ----------------------------------------------------------------------------------
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
-
+use IEEE.STD_LOGIC_ARITH.ALL;
+use IEEE.STD_LOGIC_UNSIGNED.ALL;
 -- Uncomment the following library declaration if using
 -- arithmetic functions with Signed or Unsigned values
 --use IEEE.NUMERIC_STD.ALL;
@@ -21,13 +22,13 @@ use IEEE.STD_LOGIC_1164.ALL;
 --use UNISIM.VComponents.all;
 
 entity PCAdder is
-	Port(	PCin: in STD_LOGIC_VECTOR(17 downto 0);
-			PCout: out STD_LOGIC_VECTOR(17 downto 0));
+	Port(	PCin: in STD_LOGIC_VECTOR(15 downto 0);
+			PCout: out STD_LOGIC_VECTOR(15 downto 0));
 end PCAdder;
 
 architecture PCADDERBehavioral of PCAdder is
 
 begin
-	PCout <= PCin + '1';
+	PCout <= PCin + "1";
 end PCADDERBehavioral;
 

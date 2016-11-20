@@ -1,7 +1,12 @@
-PH recorddefs NULL C:/cpu_proj/pop_cpu/recordDefs.vhd sub00/vhpl02 1479636136
+PH recorddefs NULL E:/computer/pop_cpu/recordDefs.vhd sub00/vhpl02 1479652208
 AR alusrc0mux behavioral C:/cpu_proj/pop_cpu/ALUSrc0MUX.vhd sub00/vhpl05 1479635678
+EN pcadder NULL E:/computer/pop_cpu/PCAdder.vhd sub00/vhpl07 1479652555
+EN pc NULL E:/computer/pop_cpu/PC.vhd sub00/vhpl10 1479652640
 EN alusrc1mux NULL C:/cpu_proj/pop_cpu/ALUSrc1MUX.vhd sub00/vhpl00 1479635566
+EN pcselector NULL E:/computer/pop_cpu/PCSelector.vhd sub00/vhpl08 1479652635
 AR alusrc1mux behavioral C:/cpu_proj/pop_cpu/ALUSrc1MUX.vhd sub00/vhpl04 1479635567
+AR pcselector pcselectorbehavioral E:/computer/pop_cpu/PCSelector.vhd sub00/vhpl09 1479652636
+AR pc pcbehavioral E:/computer/pop_cpu/PC.vhd sub00/vhpl11 1479652641
 EN alusrc0mux NULL C:/cpu_proj/pop_cpu/ALUSrc0MUX.vhd sub00/vhpl01 1479635677
-PB recorddefs recorddefs C:/cpu_proj/pop_cpu/recordDefs.vhd sub00/vhpl03 1479636137
-EN alu NULL C:/cpu_proj/pop_cpu/ALU.vhd sub00/vhpl06 1479636138
+PB recorddefs recorddefs E:/computer/pop_cpu/recordDefs.vhd sub00/vhpl03 1479652209
+EN alu NULL E:/computer/pop_cpu/ALU.vhd sub00/vhpl06 1479652210

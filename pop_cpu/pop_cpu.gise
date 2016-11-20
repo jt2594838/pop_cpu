@@ -40,6 +40,15 @@
     <file xil_pn:fileType="FILE_HTML" xil_pn:name="ALU_summary.html"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="ALU_vhdl.prj"/>
     <file xil_pn:fileType="FILE_XRPT" xil_pn:name="ALU_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="PC.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="PC.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="PC.xst"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="PCAdder.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="PCAdder.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="PCAdder.xst"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="PCSelector.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="PCSelector.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="PCSelector.xst"/>
     <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
     <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
     <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
@@ -74,13 +83,14 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1479636137" xil_pn:in_ck="-5017833197586312692" xil_pn:name="TRANEXT_xstsynthesize_spartan3e" xil_pn:prop_ck="2041063271452745227" xil_pn:start_ts="1479636134">
+    <transform xil_pn:end_ts="1479652209" xil_pn:in_ck="6568545305174425878" xil_pn:name="TRANEXT_xstsynthesize_spartan3e" xil_pn:prop_ck="-3623564956072318697" xil_pn:start_ts="1479652192">
       <status xil_pn:value="FailedRun"/>
       <status xil_pn:value="WarningsGenerated"/>
       <status xil_pn:value="ReadyToRun"/>
       <status xil_pn:value="OutOfDateForInputs"/>
-      <status xil_pn:value="InputAdded"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
       <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name=".lso"/>
       <outfile xil_pn:name="ALU.lso"/>
       <outfile xil_pn:name="ALU.prj"/>

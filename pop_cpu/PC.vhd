@@ -10,19 +10,21 @@
 ----------------------------------------------------------------------------------
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
+use IEEE.STD_LOGIC_ARITH.ALL;
+use IEEE.STD_LOGIC_UNSIGNED.ALL;
 
 entity PC is
 	Port(	clk : in STD_LOGIC;
             rwPause : in STD_LOGIC;
 			passerPause: in STD_LOGIC;
-			PCin: in STD_LOGIC_VECTOR(17 downto 0);
-			PCout: out STD_LOGIC_VECTOR(17 downto 0));
+			PCin: in STD_LOGIC_VECTOR(15 downto 0);
+			PCout: out STD_LOGIC_VECTOR(15 downto 0));
 end PC;
 
 architecture PCBehavioral of PC is
-    variable inited: boolean := false;
-	variable paused: boolean := false;
-    variable lastPC: STD_LOGIC_VECTOR(17 downto 0) := "000000000000000000";
+    shared variable inited: boolean := false;
+	shared variable paused: boolean := false;
+    shared variable lastPC: STD_LOGIC_VECTOR(15 downto 0) := "0000000000000000";
 begin
 	process(rwPause, passerPause)
 	begin
@@ -35,10 +37,10 @@ begin
 
     process(clk)
     begin
-        if(clk'event and clk = 1) then
+        if(clk'event and clk = '1') then
             if(inited = false) then
-                PCout <= "000000000000000000";
-                lastPC := "000000000000000000";
+                PCout <= "0000000000000000";
+                lastPC := "0000000000000000";
             elsif(inited = true and paused = false) then
                 PCout <= PCin;
                 lastPC := PCin;

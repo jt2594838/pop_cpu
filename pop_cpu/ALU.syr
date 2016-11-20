@@ -3,14 +3,14 @@ Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 --> Parameter TMPDIR set to xst/projnav.tmp
 
 
-Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.10 secs
+Total REAL time to Xst completion: 2.00 secs
+Total CPU time to Xst completion: 2.25 secs
  
 --> Parameter xsthdpdir set to xst
 
 
-Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.10 secs
+Total REAL time to Xst completion: 2.00 secs
+Total CPU time to Xst completion: 2.25 secs
  
 --> Reading design: ALU.prj
 
@@ -68,7 +68,7 @@ Automatic Register Balancing       : No
 
 ---- Target Options
 Add IO Buffers                     : YES
-Global Maximum Fanout              : 500
+Global Maximum Fanout              : 100000
 Add Generic Clock Buffer(BUFG)     : 24
 Register Duplication               : YES
 Slice Packing                      : YES
@@ -104,26 +104,29 @@ Slice Utilization Ratio Delta      : 5
 =========================================================================
 *                          HDL Compilation                              *
 =========================================================================
-Compiling vhdl file "C:/cpu_proj/pop_cpu/recordDefs.vhd" in Library work.
+WARNING:HDLParsers:3607 - Unit work/ALU is now defined in a different file.  It was defined in "C:/cpu_proj/pop_cpu/ALU.vhd", and is now defined in "E:/computer/pop_cpu/ALU.vhd".
+WARNING:HDLParsers:3607 - Unit work/ALU/Behavioral is now defined in a different file.  It was defined in "C:/cpu_proj/pop_cpu/ALU.vhd", and is now defined in "E:/computer/pop_cpu/ALU.vhd".
+WARNING:HDLParsers:3607 - Unit work/recordDefs is now defined in a different file.  It was defined in "C:/cpu_proj/pop_cpu/recordDefs.vhd", and is now defined in "E:/computer/pop_cpu/recordDefs.vhd".
+WARNING:HDLParsers:3607 - Unit work/recordDefs is now defined in a different file.  It was defined in "C:/cpu_proj/pop_cpu/recordDefs.vhd", and is now defined in "E:/computer/pop_cpu/recordDefs.vhd".
+Compiling vhdl file "E:/computer/pop_cpu/recordDefs.vhd" in Library work.
 Architecture recorddefs of Entity recorddefs is up to date.
-Compiling vhdl file "C:/cpu_proj/pop_cpu/ALU.vhd" in Library work.
-Entity <alu> compiled.
-ERROR:HDLParsers:808 - "C:/cpu_proj/pop_cpu/ALU.vhd" Line 50. sll can not have such operands in this context.
-ERROR:HDLParsers:808 - "C:/cpu_proj/pop_cpu/ALU.vhd" Line 52. srl can not have such operands in this context.
-ERROR:HDLParsers:808 - "C:/cpu_proj/pop_cpu/ALU.vhd" Line 54. sra can not have such operands in this context.
-WARNING:HDLParsers:817 - "C:/cpu_proj/pop_cpu/ALU.vhd" Line 49. Choice . is not a locally static expression.
-WARNING:HDLParsers:817 - "C:/cpu_proj/pop_cpu/ALU.vhd" Line 51. Choice . is not a locally static expression.
-WARNING:HDLParsers:817 - "C:/cpu_proj/pop_cpu/ALU.vhd" Line 53. Choice . is not a locally static expression.
-WARNING:HDLParsers:817 - "C:/cpu_proj/pop_cpu/ALU.vhd" Line 55. Choice . is not a locally static expression.
-WARNING:HDLParsers:817 - "C:/cpu_proj/pop_cpu/ALU.vhd" Line 57. Choice . is not a locally static expression.
-WARNING:HDLParsers:817 - "C:/cpu_proj/pop_cpu/ALU.vhd" Line 59. Choice . is not a locally static expression.
-WARNING:HDLParsers:817 - "C:/cpu_proj/pop_cpu/ALU.vhd" Line 61. Choice . is not a locally static expression.
-WARNING:HDLParsers:817 - "C:/cpu_proj/pop_cpu/ALU.vhd" Line 63. Choice . is not a locally static expression.
+Compiling vhdl file "E:/computer/pop_cpu/ALU.vhd" in Library work.
+ERROR:HDLParsers:808 - "E:/computer/pop_cpu/ALU.vhd" Line 50. sll can not have such operands in this context.
+ERROR:HDLParsers:808 - "E:/computer/pop_cpu/ALU.vhd" Line 52. srl can not have such operands in this context.
+ERROR:HDLParsers:808 - "E:/computer/pop_cpu/ALU.vhd" Line 54. sra can not have such operands in this context.
+WARNING:HDLParsers:817 - "E:/computer/pop_cpu/ALU.vhd" Line 49. Choice . is not a locally static expression.
+WARNING:HDLParsers:817 - "E:/computer/pop_cpu/ALU.vhd" Line 51. Choice . is not a locally static expression.
+WARNING:HDLParsers:817 - "E:/computer/pop_cpu/ALU.vhd" Line 53. Choice . is not a locally static expression.
+WARNING:HDLParsers:817 - "E:/computer/pop_cpu/ALU.vhd" Line 55. Choice . is not a locally static expression.
+WARNING:HDLParsers:817 - "E:/computer/pop_cpu/ALU.vhd" Line 57. Choice . is not a locally static expression.
+WARNING:HDLParsers:817 - "E:/computer/pop_cpu/ALU.vhd" Line 59. Choice . is not a locally static expression.
+WARNING:HDLParsers:817 - "E:/computer/pop_cpu/ALU.vhd" Line 61. Choice . is not a locally static expression.
+WARNING:HDLParsers:817 - "E:/computer/pop_cpu/ALU.vhd" Line 63. Choice . is not a locally static expression.
 --> 
 
-Total memory usage is 198628 kilobytes
+Total memory usage is 182860 kilobytes
 
 Number of errors   :    3 (   0 filtered)
-Number of warnings :    8 (   0 filtered)
+Number of warnings :   12 (   0 filtered)
 Number of infos    :    0 (   0 filtered)
 
