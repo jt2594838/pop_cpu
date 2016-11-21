@@ -60,8 +60,21 @@ constant ALUSrc1 : ALUSrc1Rec := (
 					ry  => "010",
 					IH  => "011",
 					PC  => "100");
+					
+type MEMSrcRec is record
+	rx : STD_LOGIC_VECTOR (1 downto 0);
+	ry : STD_LOGIC_VECTOR (1 downto 0);
+	RA : STD_LOGIC_VECTOR (1 downto 0);
+end record;
+
+constant MEMSrc : MEMSrcRec := (
+					rx => "00",
+					ry => "01",
+					RA => "10");
 
 end recordDefs;
+
+
 
 package body recordDefs is
 

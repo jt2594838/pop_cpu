@@ -40,6 +40,30 @@
     <file xil_pn:fileType="FILE_HTML" xil_pn:name="ALU_summary.html"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="ALU_vhdl.prj"/>
     <file xil_pn:fileType="FILE_XRPT" xil_pn:name="ALU_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="EXE_MEMRegs.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="EXE_MEMRegs.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="EXE_MEMRegs.xst"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="ID_EXERegs.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="ID_EXERegs.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="ID_EXERegs.xst"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="IF_IDRegs.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="IF_IDRegs.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="IF_IDRegs.xst"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="MEMAccess.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="MEMAccess.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="MEMAccess.xst"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="MEMSrcMUX.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="MEMSrcMUX.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="MEMSrcMUX.xst"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="MEM_WBRegs.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="MEM_WBRegs.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="MEM_WBRegs.xst"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="ReadWritePauser.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="ReadWritePauser.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="ReadWritePauser.xst"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="WBSrcMUX.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="WBSrcMUX.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="WBSrcMUX.xst"/>
     <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
     <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
     <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
@@ -48,6 +72,7 @@
   <transforms xmlns="http://www.xilinx.com/XMLSchema">
     <transform xil_pn:end_ts="1479635081" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1479635081">
       <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
     </transform>
     <transform xil_pn:end_ts="1479635081" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="-8221284822752684281" xil_pn:start_ts="1479635081">
       <status xil_pn:value="SuccessfullyRun"/>
@@ -78,21 +103,12 @@
       <status xil_pn:value="WarningsGenerated"/>
       <status xil_pn:value="ReadyToRun"/>
       <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
       <status xil_pn:value="InputAdded"/>
-      <outfile xil_pn:name=".lso"/>
-      <outfile xil_pn:name="ALU.lso"/>
-      <outfile xil_pn:name="ALU.prj"/>
-      <outfile xil_pn:name="ALU.syr"/>
-      <outfile xil_pn:name="ALU.xst"/>
-      <outfile xil_pn:name="ALUSrc0MUX.prj"/>
-      <outfile xil_pn:name="ALUSrc0MUX_vhdl.prj"/>
-      <outfile xil_pn:name="ALUSrc1MUX.prj"/>
-      <outfile xil_pn:name="ALUSrc1MUX_vhdl.prj"/>
-      <outfile xil_pn:name="ALU_vhdl.prj"/>
-      <outfile xil_pn:name="ALU_xst.xrpt"/>
-      <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
-      <outfile xil_pn:name="webtalk_pn.xml"/>
-      <outfile xil_pn:name="xst"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="InputRemoved"/>
+      <status xil_pn:value="OutputChanged"/>
+      <status xil_pn:value="OutputRemoved"/>
     </transform>
   </transforms>
 

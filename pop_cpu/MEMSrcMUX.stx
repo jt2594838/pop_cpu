@@ -1,0 +1,41 @@
+Release 14.7 - xst P.20131013 (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to C:/cpu_proj/pop_cpu/xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.54 secs
+ 
+--> Parameter xsthdpdir set to C:/cpu_proj/pop_cpu/xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.54 secs
+ 
+--> WARNING:Xst:3164 - Option "-debug" found multiple times in the command line. Only the first occurence is considered.
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/cpu_proj/pop_cpu/recordDefs.vhd" in Library work.
+Package <recorddefs> compiled.
+Package body <recorddefs> compiled.
+Compiling vhdl file "C:/cpu_proj/pop_cpu/MEMSrcMUX.vhd" in Library work.
+Entity <MEMSrcMUX> compiled.
+WARNING:HDLParsers:817 - "C:/cpu_proj/pop_cpu/MEMSrcMUX.vhd" Line 47. Choice . is not a locally static expression.
+WARNING:HDLParsers:817 - "C:/cpu_proj/pop_cpu/MEMSrcMUX.vhd" Line 49. Choice . is not a locally static expression.
+WARNING:HDLParsers:817 - "C:/cpu_proj/pop_cpu/MEMSrcMUX.vhd" Line 51. Choice . is not a locally static expression.
+Entity <MEMSrcMUX> (Architecture <Behavioral>) compiled.
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.79 secs
+ 
+--> 
+
+Total memory usage is 173108 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    4 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

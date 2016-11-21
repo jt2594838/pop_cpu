@@ -1,22 +1,62 @@
-V3 12
+V3 36
 FL C:/cpu_proj/pop_cpu/ALU.vhd 2016/11/20.17:45:17 P.20131013
 EN work/ALU 0 FL C:/cpu_proj/pop_cpu/ALU.vhd PB ieee/std_logic_1164 1381692176 \
       PB ieee/STD_LOGIC_UNSIGNED 1381692179 PB ieee/std_logic_arith 1381692177 \
-      PB work/recordDefs 1479636137
+      PB work/recordDefs 1479644595
 AR work/ALU/Behavioral 0 \
       FL C:/cpu_proj/pop_cpu/ALU.vhd EN work/ALU 0
 FL C:/cpu_proj/pop_cpu/ALUSrc0MUX.vhd 2016/11/20.17:54:32 P.20131013
 EN work/ALUSrc0MUX 1479635677 FL C:/cpu_proj/pop_cpu/ALUSrc0MUX.vhd \
-      PB ieee/std_logic_1164 1381692176 PB work/recordDefs 1479636137
+      PB ieee/std_logic_1164 1381692176 PB work/recordDefs 1479644595
 AR work/ALUSrc0MUX/Behavioral 1479635678 \
       FL C:/cpu_proj/pop_cpu/ALUSrc0MUX.vhd EN work/ALUSrc0MUX 1479635677
 FL C:/cpu_proj/pop_cpu/ALUSrc1MUX.vhd 2016/11/20.17:52:38 P.20131013
 EN work/ALUSrc1MUX 1479635566 FL C:/cpu_proj/pop_cpu/ALUSrc1MUX.vhd \
-      PB ieee/std_logic_1164 1381692176 PB work/recordDefs 1479636137
+      PB ieee/std_logic_1164 1381692176 PB work/recordDefs 1479644595
 AR work/ALUSrc1MUX/Behavioral 1479635567 \
       FL C:/cpu_proj/pop_cpu/ALUSrc1MUX.vhd EN work/ALUSrc1MUX 1479635566
-FL C:/cpu_proj/pop_cpu/recordDefs.vhd 2016/11/20.17:52:15 P.20131013
-PH work/recordDefs 1479636136 FL C:/cpu_proj/pop_cpu/recordDefs.vhd \
+FL C:/cpu_proj/pop_cpu/EXE_MEMRegs.vhd 2016/11/20.22:20:58 P.20131013
+EN work/EXE_MEMRegs 1479651661 FL C:/cpu_proj/pop_cpu/EXE_MEMRegs.vhd \
       PB ieee/std_logic_1164 1381692176
-PB work/recordDefs 1479636137 \
-      FL C:/cpu_proj/pop_cpu/recordDefs.vhd PH work/recordDefs 1479636136
+AR work/EXE_MEMRegs/Behavioral 1479651662 \
+      FL C:/cpu_proj/pop_cpu/EXE_MEMRegs.vhd EN work/EXE_MEMRegs 1479651661
+FL C:/cpu_proj/pop_cpu/ID_EXERegs.vhd 2016/11/20.23:17:33 P.20131013
+EN work/ID_EXERegs 1479655060 FL C:/cpu_proj/pop_cpu/ID_EXERegs.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/ID_EXERegs/Behavioral 1479655061 \
+      FL C:/cpu_proj/pop_cpu/ID_EXERegs.vhd EN work/ID_EXERegs 1479655060
+FL C:/cpu_proj/pop_cpu/IF_IDRegs.vhd 2016/11/21.13:28:03 P.20131013
+EN work/IF_IDRegs 1479706085 FL C:/cpu_proj/pop_cpu/IF_IDRegs.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/IF_IDRegs/Behavioral 1479706086 \
+      FL C:/cpu_proj/pop_cpu/IF_IDRegs.vhd EN work/IF_IDRegs 1479706085
+FL C:/cpu_proj/pop_cpu/MEMAccess.vhd 2016/11/20.21:48:37 P.20131013
+EN work/MEMAccess 1479649760 FL C:/cpu_proj/pop_cpu/MEMAccess.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/MEMAccess/Behavioral 1479649761 \
+      FL C:/cpu_proj/pop_cpu/MEMAccess.vhd EN work/MEMAccess 1479649760
+FL C:/cpu_proj/pop_cpu/MEMSrcMUX.vhd 2016/11/20.20:19:20 P.20131013
+EN work/MEMSrcMUX 1479644596 FL C:/cpu_proj/pop_cpu/MEMSrcMUX.vhd \
+      PB ieee/std_logic_1164 1381692176 PB work/recordDefs 1479644595
+AR work/MEMSrcMUX/Behavioral 1479644597 \
+      FL C:/cpu_proj/pop_cpu/MEMSrcMUX.vhd EN work/MEMSrcMUX 1479644596
+FL C:/cpu_proj/pop_cpu/MEM_WBRegs.vhd 2016/11/20.22:30:18 P.20131013
+EN work/MEM_WBRegs 1479652223 FL C:/cpu_proj/pop_cpu/MEM_WBRegs.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/MEM_WBRegs/Behavioral 1479652224 \
+      FL C:/cpu_proj/pop_cpu/MEM_WBRegs.vhd EN work/MEM_WBRegs 1479652223
+FL C:/cpu_proj/pop_cpu/ReadWritePauser.vhd 2016/11/20.22:37:10 P.20131013
+EN work/ReadWritePauser 1479652632 FL C:/cpu_proj/pop_cpu/ReadWritePauser.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/ReadWritePauser/Behavioral 1479652633 \
+      FL C:/cpu_proj/pop_cpu/ReadWritePauser.vhd EN work/ReadWritePauser 1479652632
+FL C:/cpu_proj/pop_cpu/recordDefs.vhd 2016/11/20.20:17:01 P.20131013
+PH work/recordDefs 1479644594 FL C:/cpu_proj/pop_cpu/recordDefs.vhd \
+      PB ieee/std_logic_1164 1381692176
+PB work/recordDefs 1479644595 \
+      FL C:/cpu_proj/pop_cpu/recordDefs.vhd PH work/recordDefs 1479644594
+FL C:/cpu_proj/pop_cpu/WBSrcMUX.vhd 2016/11/21.13:32:01 P.20131013
+EN work/WBSrcMUX 1479706341 FL C:/cpu_proj/pop_cpu/WBSrcMUX.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/WBSrcMUX/Behavioral 1479706342 \
+      FL C:/cpu_proj/pop_cpu/WBSrcMUX.vhd EN work/WBSrcMUX 1479706341
