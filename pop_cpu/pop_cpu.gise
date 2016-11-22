@@ -40,6 +40,9 @@
     <file xil_pn:fileType="FILE_HTML" xil_pn:name="ALU_summary.html"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="ALU_vhdl.prj"/>
     <file xil_pn:fileType="FILE_XRPT" xil_pn:name="ALU_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="AddressAdder.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="AddressAdder.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="AddressAdder.xst"/>
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="InsFetcher.prj"/>
     <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="InsFetcher.stx"/>
     <file xil_pn:fileType="FILE_XST" xil_pn:name="InsFetcher.xst"/>
@@ -53,6 +56,9 @@
     <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="PCSelector.stx"/>
     <file xil_pn:fileType="FILE_XST" xil_pn:name="PCSelector.xst"/>
     <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="extender.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="extender.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="extender.xst"/>
     <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
     <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
   </files>
